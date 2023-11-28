@@ -3,5 +3,5 @@ public class Code1 {
     System.out.println("Hello world!");
   }
 
-  public 
+ 
 }
