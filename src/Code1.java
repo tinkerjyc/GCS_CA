@@ -32,7 +32,7 @@ public class Code1 {
     System.out.println("*                     Welcome the OpenWeather API                       *");
     System.out.println("*         Type 1 for checking the current weather of the city           *");
     System.out.println("*         Type 2 for adding cities to your favourite list               *");
-    System.out.println("*         Type 3 for deleting cities from your favourite list           *");
+    System.out.println("*         Type 3 for updating cities from your favourite list           *");
     System.out.println("*         Type 4 for checking your favourite list                       *");
     System.out.println("*         Type 5 for close the program                                  *");
     System.out.println("*************************************************************************");
