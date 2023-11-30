@@ -45,6 +45,7 @@ public class Code1 {
           String cityName = sc.next();
           check(cityName);
           break;
+
         case "2":
           System.out.println("Please remember the maximum number of cities you can add is 3.");
           System.out.println("Please how many cities you want to add this time: ");
@@ -65,9 +66,12 @@ public class Code1 {
           }
           addCity(input);
           break;
+
         case "3":
-          System.out.println("Please remember the maximum number of cities you can delete is 3.");
-          System.out.println("Please how many cities you want to delete this time: ");
+          System.out.println("Please remember the maximum number of cities you can update is 3.");
+
+          //delete the city
+          System.out.println("Please how many cities you want to update this time: ");
           int length2 = sc.nextInt();
           while (length2 > LIMIT) {
             System.out.println("Please type in a number within limit: ");
@@ -83,24 +87,36 @@ public class Code1 {
             // covert the string input to int
             input2[i] = cities;
           }
-          deleteCity(input2);
+
+          //add the city
+          // create an int array to save user input
+          String[] input3 = new String[length2];
+          System.out.println("Please type in the cities your want to add: ");
+          // loop over array to save user input
+          System.out.println("Please enter the cities(type enter to separate): ");
+          for (int i = 0; i < length2; i++) {
+            String cities = sc.next();
+            // covert the string input to int
+            input3[i] = cities;
+          }
+          updateCity(input2, input3);
           break;
+
         case "4":
           listFavouriteCities();
           System.out.println();
           break;
+
         case "5":
           System.out.print("See you again!");
           FLAG = false;
           break;
+
         default:
           System.out.println("Please type in the right command.");
           continue;
       }
-
     }
-
-
   }
 
   /**
@@ -143,10 +159,12 @@ public class Code1 {
    *
    * @param cities the array of city names
    */
-  public static void deleteCity(String[] cities) {
-    for (int i = 0; i < cities.length; i++) {
-      int position = favour.indexOf(cities[i]);
+  public static void updateCity(String[] deletes, String[] cities) {
+    for (String delete : deletes) {
+      int position = favour.indexOf(delete);
       if (position != -1) favour.remove(position);
     }
+    num -= deletes.length;
+    addCity(cities);
   }
 }
