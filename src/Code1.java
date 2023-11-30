@@ -83,9 +83,8 @@ public class Code1 {
           }
           // create an int array to save user input
           String[] input2 = new String[length2];
-          System.out.println("Please type in the cities your want to delete: ");
+          System.out.println("Please type in the cities your want to delete(type enter to separate): ");
           // loop over array to save user input
-          System.out.println("Please enter the cities(type enter to separate): ");
           for (int i = 0; i < length2; i++) {
             String cities = sc.next();
             // covert the string input to int
@@ -95,9 +94,8 @@ public class Code1 {
           //add the city
           // create an int array to save user input
           String[] input3 = new String[length2];
-          System.out.println("Please type in the cities your want to add: ");
+          System.out.println("Please type in the cities your want to add(type enter to separate): ");
           // loop over array to save user input
-          System.out.println("Please enter the cities(type enter to separate): ");
           for (int i = 0; i < length2; i++) {
             String cities = sc.next();
             // covert the string input to int
