@@ -8,8 +8,7 @@ Two coding activity files are both in side the src folder
 
 ### Future Upgrades(1/2):
 
-1. (Achieved)~~Adding the edge cases for checking the incorrect city names.~~ Create warning and catch for
-invalid city name.
+1. (Achieved)~~Adding the edge cases for checking the incorrect city names.~~
 
 2. Create Map to store the JSON date with better outputs.
 
