@@ -147,10 +147,10 @@ public class Code1 {
       System.out.println(result);
 
     } catch (MalformedURLException e) {
-      System.out.println("Invalidate city name!");
+      System.out.println("Invalid city name!");
       e.printStackTrace();
     } catch (IOException e) {
-      System.out.println("Invalidate city name!");
+      System.out.println("Invalid city name!");
       e.printStackTrace();
     }
 
