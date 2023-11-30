@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ac1fe6c-3723-4d51-8a2f-202a69c5345e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Code1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Code1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +80,7 @@
       <workItem from="1701234818764" duration="812000" />
       <workItem from="1701235932414" duration="80000" />
       <workItem from="1701236335911" duration="36000" />
-      <workItem from="1701297649254" duration="7346000" />
+      <workItem from="1701297649254" duration="7448000" />
     </task>
     <task id="LOCAL-00001" summary="Create TypeScript documentation">
       <option name="closed" value="true" />
@@ -115,7 +114,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701303463341</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Finished Code1.">
+      <option name="closed" value="true" />
+      <created>1701305081142</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1701305081142</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,7 +133,8 @@
     <MESSAGE value="Create Code1 structure." />
     <MESSAGE value="Wait my API key to be activated." />
     <MESSAGE value="Bug fixing." />
-    <option name="LAST_COMMIT_MESSAGE" value="Bug fixing." />
+    <MESSAGE value="Finished Code1." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished Code1." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
