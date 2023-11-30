@@ -66,7 +66,7 @@ public class Code1 {
           for (int i = 0; i < length; i++) {
             String cities = sc.next();
             // covert the string input to int
-            input[i] = cities;
+            input[i] = cities.toLowerCase();
           }
           addCity(input);
           break;
@@ -89,7 +89,7 @@ public class Code1 {
           for (int i = 0; i < length2; i++) {
             String cities = sc.next();
             // covert the string input to int
-            input2[i] = cities;
+            input2[i] = cities.toLowerCase();
           }
 
           //add the city
@@ -101,9 +101,10 @@ public class Code1 {
           for (int i = 0; i < length2; i++) {
             String cities = sc.next();
             // covert the string input to int
-            input3[i] = cities;
+            input3[i] = cities.toLowerCase();
           }
-          updateCity(input2, input3);
+          deleteCity(input2);
+          addCity(input3);
           break;
 
         case "4":
@@ -173,24 +174,22 @@ public class Code1 {
    */
   public static void listFavouriteCities() {
     System.out.println("Your favourite cites are: ");
-    for(String tmp:favour){
+    for (String tmp : favour) {
       System.out.println(tmp);
       check(tmp);
     }
   }
 
-
   /**
-   * Updating the cities to user's favourite list with limits of 3.
+   * Deleting the cities to user's favourite list with limits of 3.
    *
    * @param cities the array of city names
    */
-  public static void updateCity(String[] deletes, String[] cities) {
-    for (String delete : deletes) {
+  public static void deleteCity(String[] cities) {
+    for (String delete : cities) {
       int position = favour.indexOf(delete);
       if (position != -1) favour.remove(position);
     }
-    num -= deletes.length;
-    addCity(cities);
+    num -= cities.length;
   }
 }
