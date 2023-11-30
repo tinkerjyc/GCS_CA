@@ -13,6 +13,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -78,7 +81,7 @@
       <workItem from="1701234818764" duration="812000" />
       <workItem from="1701235932414" duration="80000" />
       <workItem from="1701236335911" duration="36000" />
-      <workItem from="1701297649254" duration="5698000" />
+      <workItem from="1701297649254" duration="7346000" />
     </task>
     <task id="LOCAL-00001" summary="Create TypeScript documentation">
       <option name="closed" value="true" />
@@ -104,7 +107,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701302844407</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Bug fixing.">
+      <option name="closed" value="true" />
+      <created>1701303463341</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701303463341</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,7 +125,8 @@
     <MESSAGE value="Create TypeScript documentation" />
     <MESSAGE value="Create Code1 structure." />
     <MESSAGE value="Wait my API key to be activated." />
-    <option name="LAST_COMMIT_MESSAGE" value="Wait my API key to be activated." />
+    <MESSAGE value="Bug fixing." />
+    <option name="LAST_COMMIT_MESSAGE" value="Bug fixing." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
