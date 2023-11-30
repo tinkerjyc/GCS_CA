@@ -52,7 +52,7 @@ public class Code1 {
 
         case "2":
           System.out.println("Please remember the maximum number of cities you can add is 3.");
-          System.out.println("Please how many cities you want to add this time: ");
+          System.out.println("How many cities you want to add this time: ");
           int length = sc.nextInt();
           while (length > LIMIT) {
             System.out.println("Please type in a number within limit: ");
@@ -75,7 +75,7 @@ public class Code1 {
           System.out.println("Please remember the maximum number of cities you can update is 3.");
 
           //delete the city
-          System.out.println("Please how many cities you want to update this time: ");
+          System.out.println("How many cities you want to update this time: ");
           int length2 = sc.nextInt();
           while (length2 > LIMIT) {
             System.out.println("Please type in a number within limit: ");
