@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ac1fe6c-3723-4d51-8a2f-202a69c5345e" name="Changes" comment="Finished Code1.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Code1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Code1.java" afterDir="false" />
+    <list default="true" id="0ac1fe6c-3723-4d51-8a2f-202a69c5345e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +82,7 @@
       <workItem from="1701236335911" duration="36000" />
       <workItem from="1701297649254" duration="7475000" />
       <workItem from="1701305504674" duration="84000" />
-      <workItem from="1701305661620" duration="13000" />
+      <workItem from="1701305661620" duration="327000" />
     </task>
     <task id="LOCAL-00001" summary="Create TypeScript documentation">
       <option name="closed" value="true" />
@@ -133,7 +132,31 @@
       <option name="project" value="LOCAL" />
       <updated>1701305187183</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Bug fixing.">
+      <option name="closed" value="true" />
+      <created>1701305688255</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1701305688255</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Bug fixing.">
+      <option name="closed" value="true" />
+      <created>1701305800066</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1701305800066</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Achieved future upgrade one for code1 -- create warning for invalid city name.">
+      <option name="closed" value="true" />
+      <created>1701305939777</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1701305939777</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,9 +166,10 @@
     <MESSAGE value="Create TypeScript documentation" />
     <MESSAGE value="Create Code1 structure." />
     <MESSAGE value="Wait my API key to be activated." />
-    <MESSAGE value="Bug fixing." />
     <MESSAGE value="Finished Code1." />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished Code1." />
+    <MESSAGE value="Bug fixing." />
+    <MESSAGE value="Achieved future upgrade one for code1 -- create warning for invalid city name." />
+    <option name="LAST_COMMIT_MESSAGE" value="Achieved future upgrade one for code1 -- create warning for invalid city name." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
